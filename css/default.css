@@ -1,0 +1,156 @@
+﻿body {
+}
+
+@media screen and (-ms-view-state: fullscreen-landscape) {
+}
+
+@media screen and (-ms-view-state: filled) {
+}
+
+@media screen and (-ms-view-state: snapped) {
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+}
+/*
+* {
+margin: 0;
+}
+html, body {
+height: 100%;
+}
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em;
+}
+.footer, .push {
+height: 4em;
+}*/
+
+#lifespan-outer {
+    margin: 10px auto;
+    float: left;
+    left: 50%;
+    position: relative;
+}
+#lifespan-inner {
+    float: left;
+    position: relative;
+    right: 50%;
+    height: 35px;
+    /*to vertically center the links*/
+}
+
+.body {
+        overflow-x: hidden;
+background-color: #E2E2E2; 
+text-align: center;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+#title {
+  color: #585858;
+text-align: center;
+font-size:72px;
+font-weight: normal;
+font-family: 'Source Sans Pro', sans-serif;
+text-shadow: #666 0px 1px 1px;
+}
+
+#title-code {
+  color: #808080;
+}
+
+
+#start {
+    position: relative;
+    top:70px;
+}
+
+#start-outer {
+    margin: 10px auto;
+    float: left;
+    left: 50%;
+    position: relative;
+}
+#start-inner {
+    float: left;
+    position: relative;
+    right: 50%;
+    height: 35px;
+    /*to vertically center the links*/
+}
+
+#start {
+  color: #585858;
+}
+
+.subtitle {
+  color: #808080;
+text-align: center;
+font-size:32px;
+font-family: 'Source Sans Pro', sans-serif;
+font-weight: 200; 
+}
+
+#birthdate {
+    position: relative;
+    top:-20px;
+    width: 200px;
+    height:40px;
+font-size:32px;
+text-align: center;
+  color: #808080;
+font-family: 'Droid Sans Mono', sans-serif;
+font-weight: 300; 
+}
+
+
+#copyright {
+font-family: 'Source Sans Pro', sans-serif;
+  color: #808080;
+}
+
+#description {
+font-family: 'Source Sans Pro', sans-serif;
+  color: #808080;
+}
+
+.quote {
+    position: relative;
+text-align: center;
+padding-bottom: 30px;
+
+  color: #DDD;
+display: block;
+font-family: Tahoma, Helvetica, Arial, sans-serif;
+font-size: 24px;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+height: 24px;
+line-height: normal;
+text-align: center;
+text-shadow: #AAA 0px 1px 1px;
+}
+
+.floating {
+  position:absolute;
+  left:0;
+  top:0;
+}
+
+.shadow-border {
+-moz-box-shadow: 0px 1px 5px #666;
+-webkit-box-shadow: 0px 1px 5px #666;
+box-shadow: 0px 1px 5px #666;
+}
+
+.thin-border {
+border-color: rgb(229, 229, 229) rgb(219, 219, 219) rgb(210, 210, 210);
+-webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+-moz-box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+}
